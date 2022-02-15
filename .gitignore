@@ -13,3 +13,7 @@
 .externalNativeBuild
 .cxx
 local.properties
+<<<<<<< HEAD
+=======
+/app/src/main/res/drawable/ic_launcher2_foreground.xml
+>>>>>>> 765478c (sugundo commit)
