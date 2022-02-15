@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">IMC Calc App</string>
+    <string name="peso">peso</string>
+    <string name="altura">Altura</string>
+    <string name="Valida_peso">Informe a peso</string>
+    <string name="Valida_altura">informe altura</string>
+    <string name="calcular">Calcular</string>
+    <string name="limpar">Limpar</string>
+    <string name="valor">Resultado</string>
+    <string name="classificacao">Clasificacao</string>
+    <string name="margreza_abisoluta">margreza abisoluta</string>
+    <string name="margreza_abismaul">margreza abismaul</string>
+    <string name="margreza_animal">margreza animal</string>
+    <string name="normal">saudável</string>
+    <string name="obesidade_grau1"> obesidade grau 1</string>
+    <string name="obesidade_grau2"> obesidade grau 2</string>
+    <string name="obesidade_grau3"> obesidade_grau 3</string>
+    <string name="obesidade_grau4"> obesidade_grau 4</string>
+
+
+
+
+</resources>

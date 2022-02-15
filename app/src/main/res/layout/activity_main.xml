@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="@string/peso"
+       style="@style/text_view"/>
+
+    <EditText
+        android:id="@+id/edit_peso"
+        style="@style/edit_text"/>
+    <TextView
+        android:text="@string/altura"
+        style="@style/text_view"/>
+    <EditText
+        android:id="@+id/edit_altura"
+        style="@style/edit_text"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        style="@style/estilo_base">
+
+        <Button
+        android:id="@+id/bt_calcular"
+        style="@style/estilo_base"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="@string/calcular"/>
+        <Button
+        android:id="@+id/bt_limpar"
+        style="@style/estilo_base"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/limpar"/>
+   </LinearLayout>
+
+    <TextView
+        android:id="@+id/valor"
+        android:text="@string/valor"
+        style="@style/text_view"/>
+    <TextView
+        android:id="@+id/clasifi"
+        android:text="@string/classificacao"
+        style="@style/text_view"/>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
